@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    height: 100%;
+}
+.rightMenu{
+    width: 70px;
+    margin: 50vh auto;
+    top: -35px;
+    position: relative;
+}
+.rightMenu ul{
+    list-style: none;
+    position: relative;
+    width: 70px;
+}
+.rightMenu ul a{
+    text-decoration: none;
+}
+.rightMenu ul .main a {
+    color: #ffffff;
+    font-size: 14px;
+}
+.rightMenu ul li{
+    transition: all 0.5s ease-in-out;
+    border-radius: 50px;
+}
+.rightMenu ul li a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50;
+}
+.rightMenu ul li a:hover{opacity: 0.7;}
+.rightMenu ul li.main a {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+}
+.rightMenu ul li:not(.main){
+    transform: rotate(-180deg) scale(0);
+    opacity: 0;
+}
+.rightMenu:hover ul li{
+    transform: rotate(0) scale(1);
+    opacity: 1;
+}
+.rightMenu ul li.main{
+    background-color: #bdbdbd;
+}
+.rightMenu ul li.top {
+    transform-origin: 50% 120px;
+    position: absolute;
+    top: -100px;
+    left: 10px;
+    color: #29b6f6;
+}
+.rightMenu ul li.top2{
+    transform-origin: -30px 90px;
+    position: absolute;
+    top: -65px;
+    right: -65px;
+    color:#26a69a ;
+}
+
+.rightMenu ul li.bottom{
+    transform-origin: 50% -52px;
+    position: absolute;
+    bottom: -100px;
+    left: 10px;
+    color:#ffa726 ;
+}
+.rightMenu ul li.bottom2{
+    transform-origin: 100px -50%;
+    position: absolute;
+    bottom: -65px;
+    left: -65px;
+    color:#ef5350 ;
+}
+
+.rightMenu ul li.right{
+    transform-origin: -50px 50%;
+    position: absolute;
+    top: 10px;
+    right: -100px;
+    color: #9ccc65;
+}
+.rightMenu ul li.right2{
+    position: absolute;
+    transform-origin: -100px -50px ;
+    bottom: -65px;
+    right: -65px;
+    color: #ecdd50;
+}
+
+.rightMenu ul li.left{
+    position: absolute;
+    transform-origin: 150px 50px ;
+    top: 10px;
+    left: -100px;
+
+    color: #ab47bc;
+
+}
+.rightMenu ul li.left2{
+    position: absolute;
+    transform-origin: 100px 100px;
+    left: -65px;
+    top: -65px;
+    color: #5c6bc0;
+
+}
+
+.material-icons.md-48{
+    font-size: 48px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
